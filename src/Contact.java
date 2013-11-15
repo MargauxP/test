@@ -4,6 +4,7 @@ public class Contact {
 	private String nom;
 	private String prenom;
 	
+	//methode public
 	public Contact (int idPersonne, String unNom, String unPrenom){
 		this.idPersonne=idPersonne;
 		this.nom=unNom;
