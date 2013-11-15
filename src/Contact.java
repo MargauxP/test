@@ -7,7 +7,7 @@ public class Contact {
 	public Contact (int idPersonne, String unNom, String unPrenom){
 		this.idPersonne=idPersonne;
 		this.nom=unNom;
-		this.prenom=unPrenom;
+		//this.prenom=unPrenom;
 	}
 	public int getidPersonne(){
 		return this.idPersonne;
@@ -18,4 +18,5 @@ public class Contact {
 	public String getPrenom(){
 		return this.prenom;
 	}
+	
 }
